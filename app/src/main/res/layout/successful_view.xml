@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/custome_pinview"
+    android:backgroundTint="@color/snow">
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/exit_ic"
+        android:id="@+id/btnScClose"
+        android:layout_gravity="right"
+
+        android:backgroundTint="@android:color/transparent"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/successful_ic"
+            android:contentDescription="successful"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Success!"
+            android:textSize="40dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Every thing is working\nnormally."
+            android:textSize="25dp"
+            android:gravity="center"
+            android:layout_marginVertical="15dp"
+            android:textStyle="bold"/>
+        <Button
+            android:id="@+id/btnContinue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Continue"
+            android:paddingHorizontal="50dp"
+            android:paddingVertical="20dp"
+            android:textColor="@color/dark_green"
+            android:textStyle="bold"
+            android:backgroundTint="@color/light_green"
+            android:textSize="25dp"
+            android:layout_marginBottom="20dp"/>
+    </LinearLayout>
+</LinearLayout>

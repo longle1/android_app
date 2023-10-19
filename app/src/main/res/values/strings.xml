@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Final_project</string>
+    <string name="default_web_client_id" translatable="false">208942117732-jfl50662a4s8gl8jroll65lt1dv5uvjs.apps.googleusercontent.com</string>
+    <string name="facebook_app_id">1087685845547855</string>
+    <string name="fb_login_protocol_scheme">fb1087685845547855</string>
+<!--    mã ứng dụng-->
+    <string name="facebook_client_token">d649a10a8f3e2986dec71ca886cd0b4d</string>
+
+    <string name="login_logo">Login</string>
+</resources>

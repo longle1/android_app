@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "208942117732",
+    "project_id": "airqualityindex-401516",
+    "storage_bucket": "airqualityindex-401516.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:208942117732:android:432864de15a75afef58071",
+        "android_client_info": {
+          "package_name": "com.example.final_project"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBp-7JCzBZwKCkIFIqIm-WkbqlFOiN16Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
